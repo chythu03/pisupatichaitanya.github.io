@@ -1,0 +1,403 @@
+#iamage-container{
+    /*
+    background-image: url(img/bg.jpg);
+    background: linear-gradient(rgba(46, 204, 113,1.0), rgba(52, 73, 94,1.0));
+
+    this will effect on background image with linear gradient
+    */
+    background-color: rgba(46, 204, 113,1.0);
+    width: 100%;
+    height: 500px;
+
+}
+#main-title-body{
+  background-color: transparent;
+  height: 400px;
+  width: 700px;
+  margin-left:15%
+
+}
+#main-title{
+  height: 200px;
+  width: 700px;
+  background-color: transparent;
+float: right;
+padding-top: 40px;
+
+}
+#main-subtitle{
+  background-color: ;
+  width: 700px;
+  height: 200px;
+  float: left;
+}
+#main-title-button{
+  background-color: transparent;
+  height: 100px;
+  width: 300px;
+  margin-left: 30%;
+  padding-top: 40px;
+}
+#main-title > p{
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Lobster', cursive;
+  margin-top: 10px;
+  color: white;
+  text-shadow: 2px 0px 5px;
+}
+#main-subtitle > p{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: 'Montserrat'
+
+}
+#main-title-button > button{
+  text-align: center;
+  font-family: 'Righteous', cursive;
+  width: 50%;
+  margin-left: 15%;
+  height: 70px;
+  width: 200px;
+  border-radius: 20px;
+  background-color: white;
+  color: #2ecc71;
+  border:1px solid white;
+  font-size: 20px;
+}
+#main-title-button > button:hover{
+  color: white;
+  background-color: #2ecc71;
+  border: 2px solid white;
+  transition: .5s;
+}
+#main-container-3{
+  background-color: #c9d0d6;
+  width: 100%;
+  height: 480px;
+}
+#main-container-3-left{
+  height: 480px;
+  width: 35%;
+  float: left;
+
+
+}
+#main-container-3-right{
+  background-color: rgb(218, 226, 232);
+  height: 480px;
+  width: 65%;
+  float: left;
+  background-image: url(../img/cup.png);
+
+}
+#main-container-3-right:hover{
+      box-shadow: 1px 5px 30px;
+      transition: .5s;
+      background-color: #bcc3c7;
+      border-radius: 5px 0 0 5px;
+}
+#main-container-3-left:hover{
+      box-shadow: 1px 5px 30px;
+      transition: .5s;
+}
+#main-container-3-left > img{
+  margin-left: 40%;
+  padding-top: 12%;
+}
+.main-container-3-right-header{
+  height: 100%;
+  width: 100%;
+
+}
+.main-container-3-right-header-head{
+  width: 80%;
+  height: 30%;
+}
+.main-container-3-right-header-sub{
+  width: 80%;
+  height: 20%;
+}
+.main-container-3-right-header-table{
+  width: 80%;
+  height: 100%;
+}
+.main-container-3-right-header-head > h1{
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 40px;
+  padding-top: 40px;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+
+}
+.main-container-3-right-header-sub > h3{
+  font-family: 'Montserrat';
+  text-align: left;
+  padding-left: 40px;
+  text-transform: lowercase;
+}
+.main-container-3-right-header-table{
+  padding-left: 40px;
+}
+.main-container-3-right-header-table > table{
+  width: 400px;
+  font-family: 'Righteous', cursive;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+#btn-2{
+  height: 50px;
+  width: 130px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-family: 'Righteous', cursive;
+  text-transform: uppercase;
+  background-color: #1abc9c;
+  border: solid 1px #1abc9c;
+
+}
+#btn-2:hover{
+  background-color: #bcc3c7;
+  border: 3px solid white;
+  color: white;
+  transition: .5s;
+}
+
+#main-container-4{
+  background-color: #c9d0d6;
+  width: 100%;
+  height: 480px;
+}
+#main-container-4-left{
+  height: 480px;
+  width: 35%;
+  float: left;
+
+
+}
+#main-container-4-right{
+  background-color: rgb(218, 226, 232);
+  height: 480px;
+  width: 65%;
+  float: left;
+  background-image: url(../img/cup.png);
+
+}
+#main-container-4-right:hover{
+      box-shadow: 1px 5px 30px;
+      transition: .5s;
+      background-color: #bcc3c7;
+      border-radius: 5px 0 0 5px;
+}
+#main-container-4-left:hover{
+      box-shadow: 1px 5px 30px;
+      transition: .5s;
+}
+#main-container-4-left > img{
+  margin-left: 40%;
+  padding-top: 12%;
+}
+.main-container-4-right-header{
+  height: 100%;
+  width: 100%;
+
+}
+.main-container-4-right-header-head{
+  width: 80%;
+  height: 30%;
+}
+.main-container-4-right-header-sub{
+  width: 80%;
+  height: 20%;
+}
+.main-container-4-right-header-table{
+  width: 80%;
+  height: 100%;
+}
+.main-container-4-right-header-head > h1{
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 40px;
+  padding-top: 40px;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+
+}
+.main-container-4-right-header-sub > h3{
+  font-family: 'Montserrat';
+  text-align: left;
+  padding-left: 40px;
+  text-transform: lowercase;
+}
+.main-container-4-right-header-table{
+  padding-left: 40px;
+}
+.main-container-4-right-header-table > table{
+  width: 400px;
+  font-family: 'Righteous', cursive;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+#main-container-5{
+  background-color: #c9d0d6;
+  width: 100%;
+  height: 480px;
+}
+#main-container-5-left{
+  height: 480px;
+  width: 35%;
+  float: left;
+
+
+}
+#main-container-5-right{
+  background-color: rgb(218, 226, 232);
+  height: 480px;
+  width: 65%;
+  float: left;
+  background-image: url(../img/cup.png);
+
+}
+#main-container-5-right:hover{
+      box-shadow: 1px 5px 30px;
+      transition: .5s;
+      background-color: #bcc3c7;
+      border-radius: 5px 0 0 5px;
+}
+#main-container-5-left:hover{
+      box-shadow: 1px 5px 30px;
+      transition: .5s;
+}
+#main-container-5-left > img{
+  margin-left: 40%;
+  padding-top: 12%;
+}
+.main-container-5-right-header{
+  height: 100%;
+  width: 100%;
+
+}
+.main-container-5-right-header-head{
+  width: 80%;
+  height: 30%;
+}
+.main-container-5-right-header-sub{
+  width: 80%;
+  height: 20%;
+}
+.main-container-5-right-header-table{
+  width: 80%;
+  height: 100%;
+}
+.main-container-5-right-header-head > h1{
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 40px;
+  padding-top: 40px;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+
+}
+.main-container-5-right-header-sub > h3{
+  font-family: 'Montserrat';
+  text-align: left;
+  padding-left: 40px;
+  text-transform: lowercase;
+}
+.main-container-5-right-header-table{
+  padding-left: 40px;
+}
+.main-container-5-right-header-table > table{
+  width: 400px;
+  font-family: 'Righteous', cursive;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+
+
+#main-container-6{
+  background-color: #c9d0d6;
+  width: 100%;
+  height: 480px;
+}
+#main-container-6-left{
+  height: 480px;
+  width: 35%;
+  float: left;
+
+
+}
+#main-container-6-right{
+  background-color: rgb(218, 226, 232);
+  height: 480px;
+  width: 65%;
+  float: left;
+  background-image: url(../img/cup.png);
+
+}
+#main-container-6-right:hover{
+      box-shadow: 1px 5px 30px;
+      transition: .5s;
+      background-color: #bcc3c7;
+      border-radius: 5px 0 0 5px;
+}
+#main-container-6-left:hover{
+      box-shadow: 1px 5px 30px;
+      transition: .5s;
+}
+#main-container-6-left > img{
+  margin-left: 40%;
+  padding-top: 12%;
+}
+.main-container-6-right-header{
+  height: 100%;
+  width: 100%;
+
+}
+.main-container-6-right-header-head{
+  width: 80%;
+  height: 30%;
+}
+.main-container-6-right-header-sub{
+  width: 80%;
+  height: 20%;
+}
+.main-container-6-right-header-table{
+  width: 80%;
+  height: 100%;
+}
+.main-container-6-right-header-head > h1{
+  text-transform: uppercase;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 40px;
+  padding-top: 40px;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+
+}
+.main-container-6-right-header-sub > h3{
+  font-family: 'Montserrat';
+  text-align: left;
+  padding-left: 40px;
+  text-transform: lowercase;
+}
+.main-container-6-right-header-table{
+  padding-left: 40px;
+}
+.main-container-6-right-header-table > table{
+  width: 400px;
+  font-family: 'Righteous', cursive;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+
